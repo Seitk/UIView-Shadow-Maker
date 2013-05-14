@@ -6,9 +6,9 @@ Shadows are drawn with CAGradient and added into an UIView with tag, remove view
 This project is an example, category file can be found in /Shadow Maker Example/Classes
 
 Function  
-\- (void) makeInsetShadow;
-\- (void) makeInsetShadowWithRadius:(float)radius Alpha:(float)alpha;
-\- (void) makeInsetShadowWithRadius:(float)radius Color:(UIColor *)color Directions:(NSArray *)directions;
+\- (void) makeInsetShadow;  
+\- (void) makeInsetShadowWithRadius:(float)radius Alpha:(float)alpha;  
+\- (void) makeInsetShadowWithRadius:(float)radius Color:(UIColor *)color Directions:(NSArray *)directions;  
 
 Example  
 UIView *sampleView1 = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];  
