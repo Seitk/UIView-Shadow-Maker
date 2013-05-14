@@ -1,7 +1,8 @@
 UIView-Shadow-Maker
 ===================
 
-An UIView category that allow user to easily make inset shadow, customize the radius, alpha, color and directions.   
+An UIView category that allow user to easily make inset shadow, customize the radius, alpha, color and directions.  
+Shadows are drawn with CAGradient and added into an UIView with tag, remove viewWithTag in subviews to clear the shadow.  
 This project is an example, category file can be found in /Shadow Maker Example/Classes
 
 Function  
